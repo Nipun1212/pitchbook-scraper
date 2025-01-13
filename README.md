@@ -6,9 +6,15 @@ This project contains two Jupyter notebooks designed to scrape company details f
 
 ## Features
 
-Company Matching: Identifies possible matches for a given company name.
-Detail Extraction: Finds the correct company profile by identifying emails and other attributes.
-Data Export: Saves the extracted details in a user-friendly format (Excel/CSV).
+<ul>
+  <li><strong>Company Matching:</strong> Identifies possible matches for a given company name.</li>
+  <li><strong>Detail Extraction:</strong> Finds the correct company profile by identifying emails and other attributes.</li>
+  <li>
+    <strong>Browser Automation:</strong> Uses Selenium to automate the web browser for scraping, with features like random scrolling and dynamic timeouts to avoid detection as a bot.
+  </li>
+  <li><strong>Data Export:</strong> Saves the extracted details in a user-friendly format (Excel/CSV).</li>
+</ul>
+
 
 
 ## Example Workflow
