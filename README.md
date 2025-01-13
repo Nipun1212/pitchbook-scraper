@@ -12,10 +12,26 @@ Data Export: Saves the extracted details in a user-friendly format (Excel/CSV).
 
 
 ## Example Workflow
-Input: 
-Provide a CSV file containing a list of company names and their respective websites. This file will serve as the base for matching with the company profiles on PitchBook.
-Processing:
-find_matches.ipynb: The notebook takes the input CSV and identifies possible matches on PitchBook. It filters these matches based on the provided company website to ensure accurate results.
-scrape_details.ipynb: This notebook verifies the correct profile by matching additional details like email domains and then scrapes the required information.
-Output:
-The scraped details, including the company name, website, and other relevant information, are saved in .xlsx or .csv format for further analysis.
+
+<ol>
+  <li>
+    <strong>Input:</strong> Provide a CSV file containing a list of company names and their respective websites. This file will serve as the base for matching with the company profiles on PitchBook.
+  </li>
+  <li>
+    <strong>Processing:</strong>
+    <ul>
+      <li>
+        <strong>find_matches.ipynb:</strong> The notebook takes the input CSV and identifies possible matches on PitchBook. It filters these matches based on the provided company website to ensure accurate results.
+      </li>
+      <li>
+        <strong>scrape_details.ipynb:</strong> This notebook verifies the correct profile by matching additional details like email domains and then scrapes the required information.
+      </li>
+    </ul>
+  </li>
+  <li>
+    <strong>Output:</strong>
+    <ul>
+      <li>The scraped details, including the company name, website, and other relevant information, are saved in <code>.xlsx</code> or <code>.csv</code> format for further analysis.</li>
+    </ul>
+  </li>
+</ol>
